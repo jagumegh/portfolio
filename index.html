@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jagu - Portfolio</title>
+
+    <!-- SEO -->
+    <meta name="description" content="Jagrup Talniya - Web Developer Portfolio">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Django, Portfolio, Web Developer">
+    <meta name="author" content="Jagrup Talniya">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Jagu</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skill">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#footer">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<br>
+    <!-- Hero -->
+    <section class="hero text-center py-5" id="home">
+        <div class="container">
+            <h1>Hi, I'm <span class="text-primary">Jagrup Talniya</span></h1>
+            <p>A passionate <strong>Web Developer</strong> crafting interactive web experiences.</p>
+            <div class="hero-buttons">
+                <a href="#portfolio" class="btn btn-primary m-2">View Portfolio</a>
+                <a href="resume.jpg" class="btn btn-outline-secondary m-2">View Resume</a>
+                <a href="#footer" class="btn btn-success m-2">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="py-5">
+        <div class="container text-center">
+            <h2>About Me</h2>
+            <p>Some brief info about me.</p>
+            <div class="row align-items-center">
+                <div class="col-md-4">
+                    <img src="pro.jpg" class="img-fluid rounded-circle" alt="Profile">
+                </div>
+                <div class="col-md-8 text-start">
+                    <h3>Web Developer</h3>
+                    <p>
+                        I am a passionate Web Developer with expertise in HTML, CSS, JavaScript, MySQL, Python, and Django.
+                        I enjoy building responsive and interactive websites that provide a seamless user experience.
+                    </p>
+                    <ul class="list-unstyled">
+                        <li><strong>Birthday:</strong> 20 Jan 2005</li>
+                        <li><strong>Contact:</strong> 7850984303</li>
+                        <li><strong>Email:</strong> jagruptalniya@gmail.com</li>
+                        <li><strong>Location:</strong> Jaipur, Rajasthan</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skill" class="py-5 bg-light">
+        <div class="container">
+            <h3 class="section-title text-center mb-4">Skills</h3>
+            <div class="row">
+                <div class="col-md-6">
+                    <p>HTML & CSS</p>
+                    <div class="progress mb-3"><div class="progress-bar" style="width: 90%"></div></div>
+
+                    <p>JavaScript</p>
+                    <div class="progress mb-3"><div class="progress-bar" style="width: 75%"></div></div>
+                </div>
+                <div class="col-md-6">
+                    <p>PHP & MySQL</p>
+                    <div class="progress mb-3"><div class="progress-bar" style="width: 85%"></div></div>
+
+                    <p>Python & Django</p>
+                    <div class="progress mb-3"><div class="progress-bar" style="width: 80%"></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio / Projects -->
+    <section id="portfolio" class="py-5">
+        <div class="container">
+            <h3 class="section-title text-center mb-4">Projects</h3>
+            <div class="row">
+                <!-- Project Card 1 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="project1.jpg" class="card-img-top" alt="Recipe Website">
+                        <div class="card-body">
+                            <h5 class="card-title">Recipe Website</h5>
+                            <p class="card-text">Built with Django & MySQL. Users can sign up, add recipes, and rate them.</p>
+                            <a href="#" class="btn btn-sm btn-outline-dark">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project Card 2 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="project2.jpg" class="card-img-top" alt="Portfolio Website">
+                        <div class="card-body">
+                            <h5 class="card-title">Portfolio Website</h5>
+                            <p class="card-text">A personal portfolio showcasing skills, projects, and contact info.</p>
+                            <a href="https://jagutalniya.github.io/portfolio/" class="btn btn-sm btn-outline-dark">Live</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project Card 3 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="project3.jpg" class="card-img-top" alt="E-Commerce Site">
+                        <div class="card-body">
+                            <h5 class="card-title">Django E-Commerce</h5>
+                            <p class="card-text">Online store with authentication, cart, and payment integration.</p>
+                            <a href="#" class="btn btn-sm btn-outline-dark">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h3 class="section-title text-center mb-4">Experience</h3>
+            <h5>Freelance Web Developer</h5>
+            <p>2025 - Present</p>
+            <p>Developed responsive and interactive websites for multiple clients with high performance and SEO optimization.</p>
+        </div>
+    </section>
+
+    <!-- Education -->
+    <section class="py-5">
+        <div class="container">
+            <h3 class="section-title text-center mb-4">Education</h3>
+            <p class="text-center">Bachelor's Degree - MDSU Ajmer</p>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="text-center py-5" id="footer">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:jagruptalniya@gmail.com">jagruptalniya@gmail.com</a></p>
+            <p>Phone: <a href="tel:+917850984303">+91 7850984303</a></p>
+            <div class="social-icons mt-3">
+                <a href="https://x.com/Imjagruptalniya" class="mx-2"><i class="fab fa-x-twitter"></i></a>
+                <a href="https://www.facebook.com/jagrup.meghwal" class="mx-2"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/imjagruptalniya/" class="mx-2"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/jagrup-talniya-9a9374334" class="mx-2"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center bg-light py-3">
+        <p>Designed by <strong>Jagrup Talniya</strong> &copy; 2025 All Rights Reserved</p>
+    </footer>
+
+    <!-- Scroll to Top -->
+    <div class="scroll-to-top position-fixed bottom-0 end-0 m-4" style="cursor:pointer;" onclick="window.scrollTo({top: 0, behavior: 'smooth'});">
+        <i class="fas fa-arrow-up fa-2x"></i>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
